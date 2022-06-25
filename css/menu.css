@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.875rem 6.25rem;
+}
+.menu-components {
+  display: flex;
+  gap: 2rem;
+}
+.menu-components * {
+  color: #00240f;
+}
+.menu-components li a:first-child {
+  color: red;
+}

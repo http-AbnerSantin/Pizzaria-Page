@@ -1,0 +1,13 @@
+@import "./css/menu.css";
+@import "./css/main.css";
+
+/*GERAL*/
+
+* {
+  font-family: Fira Sans;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
