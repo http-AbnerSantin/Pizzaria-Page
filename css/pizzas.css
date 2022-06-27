@@ -9,4 +9,67 @@
 
 .pizzas-components {
   display: flex;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 0 15.3125rem;
+}
+.pizza-un {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5625rem;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 100rem 100rem 1.875rem 1.875rem;
+}
+
+.pizza-un select {
+  appearance: none;
+  position: relative;
+  padding: 0.625rem 1rem;
+  display: inline;
+  border-radius: 1.5rem;
+  margin-bottom: 0.625rem;
+  background: #fff;
+  cursor: pointer;
+}
+.pizza-un select:focus {
+  outline: none;
+}
+
+.pizza-btn {
+  background: #ec0000;
+  color: #fff;
+  padding: 0.625rem 1.5rem;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.pizza-btn:hover {
+  background: #a00000;
+}
+.pizza-un h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1.3125rem 0 0.25rem 0;
+}
+.pizza-un p {
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 1.3125;
+}
+
+.pizza-un span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #0a4;
+  margin: 1.3125rem 0px;
+}
+.pizza-un:hover {
+  transition: 0.5s;
+  box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
 }

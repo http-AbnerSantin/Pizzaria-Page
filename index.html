@@ -16,25 +16,73 @@
       <img src="img/Group 4281.svg" alt="logo" />
       <nav class="nav">
         <ul class="menu-components">
-          <li><a href="">Home</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Promo</a></li>
+          <li><a class="menu-link" href="">Home</a></li>
+          <li><a class="menu-link" href="">Menu</a></li>
+          <li><a class="menu-link" href="">Promo</a></li>
           <li><img src="img/Vector.svg" alt="" /></li>
           <li><img src="img/noun_cart_1206183.svg" alt="" /></li>
-          <li>SIGN IN</li>
+          <li><a class="menu-link" href="sing">SING IN</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container">
       <section class="main-content">
-        <h1>Friday pizza!</h1>
-        <p>Time to enjou our delicious pizza.</p>
-        <a href="">ORDER NOW</a>
+        <h1 class="main-title">Friday pizza!</h1>
+        <p class="main-content">Time to enjou our delicious pizza.</p>
+        <a class="main-link" href="">ORDER NOW</a>
       </section>
       <section class="main-image">
-        <img src="img/margherita-pizza 2.png" alt="" />
+        <img
+          src="img/margherita-pizza 2.png"
+          alt="imagem de uma pizza com molho de tomate e alguns temperos"
+        />
       </section>
     </main>
+    <section class="pizzas">
+      <h2>Recommended menu</h2>
+      <ul class="pizzas-components">
+        <li class="pizza-un">
+          <img src="img/pizza-1.png" alt="" />
+          <h3 class="pizza-title">Cheese Lovers</h3>
+          <p>
+            Combination of Alfedo sauce and two cheeses - Romano, and Parmesan.
+          </p>
+          <span><b>$20.00</b></span>
+          <select name="select" id="">
+            <option value="little">Little</option>
+            <option value="regular">Regular</option>
+            <option value="Family">Family</option>
+          </select>
+          <button class="pizza-btn">ADD TO CART</button>
+        </li>
+        <li class="pizza-un">
+          <img src="img/pizza-2.png" alt="" />
+          <h3 class="pizza-title">Pepperoni Pizza</h3>
+          <p>Pizza with homemade spicy beef sausage.</p>
+          <span><b>$20.00</b></span>
+          <select name="select" id="">
+            <option value="little">Little</option>
+            <option value="regular">Regular</option>
+            <option value="Family">Family</option>
+          </select>
+          <button class="pizza-btn">ADD TO CART</button>
+        </li>
+        <li class="pizza-un">
+          <img src="img/pizza-3.png" alt="" />
+          <h3 class="pizza-title">Margherita Pizza</h3>
+          <p>
+            Made with San Marzano tomatoes, mozzarella cheese, and fresh brasil.
+          </p>
+          <span><b>$20.00</b></span>
+          <select name="select" id="">
+            <option value="little">Little</option>
+            <option value="regular">Regular</option>
+            <option value="Family">Family</option>
+          </select>
+          <button class="pizza-btn">ADD TO CART</button>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
