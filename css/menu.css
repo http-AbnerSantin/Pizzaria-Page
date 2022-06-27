@@ -2,14 +2,22 @@
   display: flex;
   justify-content: space-between;
   padding: 1.875rem 6.25rem;
+  align-items: center;
 }
 .menu-components {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
-.menu-components * {
+.menu-components li a {
   color: #00240f;
 }
-.menu-components li a:first-child {
-  color: red;
+.menu-components li:last-child a {
+  color: white;
+}
+.menu-components li:last-child {
+  background: #ec0000;
+  padding: 0.625rem 1.5rem;
+  border-radius: 1.5rem;
+  font-weight: bold;
 }

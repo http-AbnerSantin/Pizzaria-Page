@@ -1,0 +1,12 @@
+.pizzas h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  color: #00240f;
+  font-weight: 600;
+  margin-top: 3.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.pizzas-components {
+  display: flex;
+}
