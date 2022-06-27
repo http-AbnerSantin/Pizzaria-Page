@@ -14,6 +14,7 @@
   justify-content: center;
   gap: 2.5rem;
   margin: 0 15.3125rem;
+  flex: 1;
 }
 .pizza-un {
   display: flex;
@@ -22,6 +23,7 @@
   text-align: center;
   border: 1px solid #aaa;
   border-radius: 100rem 100rem 1.875rem 1.875rem;
+  flex: 1;
 }
 
 .pizza-un select {
