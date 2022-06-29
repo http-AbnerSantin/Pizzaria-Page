@@ -11,13 +11,25 @@
 }
 .menu-components li a {
   color: #00240f;
+  padding: 0.625rem 0;
+}
+.menu-components li a:hover {
+  color: #001200;
+  border-bottom: 1px solid #001200;
+}
+.menu-components li:nth-child(4) a:hover,
+.menu-components li:nth-child(5) a:hover {
+  border-bottom: none;
 }
 .menu-components li:last-child a {
   color: white;
-}
-.menu-components li:last-child {
-  background: #ec0000;
   padding: 0.625rem 1.5rem;
+  background: #ec0000;
   border-radius: 1.5rem;
   font-weight: bold;
+}
+
+.menu-components li:last-child a:hover {
+  background: #a00;
+  border-bottom: none;
 }

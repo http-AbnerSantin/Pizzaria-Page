@@ -1,7 +1,15 @@
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background: #ec0000;
   align-items: center;
   margin-top: 7rem;
-  padding: 2rem;
+  padding: 1rem 7.25rem;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+}
+.footer a {
+  color: #fff;
+  text-decoration: underline;
 }
