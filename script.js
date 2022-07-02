@@ -1,3 +1,3 @@
-import teste from './js/modal.js';
+import modal from './js/modal.js';
 
-teste()
+modal()

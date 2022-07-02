@@ -16,5 +16,9 @@ export default function modal(){
   }
 
   button.addEventListener('click', openModal)
-  modalContainer.addEventListener('click', closeModal )
+  modalContainer.addEventListener('click', (event) => {
+   if (modal.contains(event.target)) return;
+
+   closeModal()
+  } )
 }

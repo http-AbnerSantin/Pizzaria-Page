@@ -46,12 +46,68 @@
   display: grid;
   justify-items: center;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.7s;
 }
 .modal {
   background: #fff;
-  width: 18.625rem;
-  height: 25.625rem;
+  width: 0;
+  height: 0;
   padding: 1rem;
   border: 0.45rem solid #ec0000;
   border-radius: 10rem 10rem 4px 4px;
+  overflow: hidden;
+  transition: width 0.7s, height 0.7s;
+  box-shadow: 0px 2px 0px 0.45rem #ffffff;
+  display: grid;
+  align-items: center;
+  position: relative;
+}
+.modal-show > .modal {
+  width: 18.625rem;
+  height: 25.625rem;
+}
+.modal-show {
+  opacity: 1;
+  pointer-events: initial;
+}
+.sing-in {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.sing-in input {
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.2rem;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.sing-in button {
+  color: white;
+  padding: 0.625rem 1.5rem;
+  background: #ec0000;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.modal h2 {
+  text-align: center;
+  color: #00240f;
+}
+
+.close-modal {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  cursor: pointer;
+  background-color: #ec0000;
+  z-index: 10;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  color: #fff;
 }
